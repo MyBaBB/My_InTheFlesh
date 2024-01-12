@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.TestAppWrapper {
+  font-family: 'Creepster', cursive;
+  
+}
+:root {
+  position: fixed;
+  height: screen;
+  padding: 1px;
+  background-color:#35373b;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  border: 2px solid red;
+  color: aliceblue;
+}
+
+
+
+
+@font-face {
+  font-family:'Creepster';
+  src: url(../GoogleFonts/Creepster/Creepster-Regular.ttf)
+ }
+ @font-face {
+  font-family:'DM_Serif_Display';
+  src: url(../GoogleFonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf)
+ }
+ @font-face {
+  font-family:'';
+  src: url(../GoogleFonts/Itim/Itim-Regular.ttf)
+ }
+ @font-face {
+  font-family:'Kranky';
+  src: url(../GoogleFonts/Kranky/Kranky-Regular.ttf)
+ }
+ @font-face {
+  font-family:'Libre_Baskerville';
+  src: url(../GoogleFonts/Libre_Baskerville/LibreBaskerville-Regular.ttf)
+ }
+ @font-face {
+  font-family:'PT_Serif';
+  src: url(../GoogleFonts/PT_Serif/PTSerif-Regular.ttf)
+ }
+ @font-face {
+  font-family:'Rye';
+  src: url(../GoogleFonts/Rye/Rye-Regular.ttf)
+ }
+@font-face {
+ font-family:'black_ops_one';
+  src: url(../GoogleFonts/Black_Ops_One/BlackOpsOne-Regular.ttf)
+ }
+@font-face {
+ font-family:'Caprasimo';
+  src: url(../GoogleFonts/Caprasimo/Caprasimo-Regular.ttf)
+ }
+
+
+
+
+
