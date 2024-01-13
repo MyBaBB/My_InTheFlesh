@@ -69,23 +69,33 @@ const FakeAddressBar = () => {
 
                 <div className='relative flex justify-center '>
 
-                    
+                 
+   
                     {/* <div className='DarkModeFakeTab absolute -top-0 w-screen'>
                         <img src={DarkMode1} alt="DarkMode1" ></img>
                     </div> */}
 
-
-                    <div className='FakeTabContainer relative flex-row justify-start border-b-2  border-slate-900  w-screen shadow-md shadow-black '>
-                        <span className='ArrowLeft relative inline-block pl-4 pt-2 text-slate-400 text-[18px]'>
+                    <div className='FakeTabContainer relative flex-row justify-start border-b-2  border-slate-900  w-screen shadow-md shadow-black w-fit '>
+                        <div className='ArrowsWrapper relative inline-block border p-1 border-blue-300'>
+                        <span className='ArrowLeft relative inline-block pl-4 py-2 text-slate-400 text-[18px]'>
                             <FaArrowLeft />
                         </span>
-                        <span className='ArrowLeft relative inline-block pl-4 text-slate-400 text-[18px] '>
+                        <span className='ArrowLeft relative inline-block pl-4 py-2 text-slate-400 text-[18px] '>
                             <FaArrowRight />
                         </span>
-                        <span className='RefreshButton relative inline-block pl-4 text-slate-400 text-[20px]'>
+                        <span className='RefreshButton relative inline-block pl-4 py-2 text-slate-400 text-[20px]'>
                             <MdRefresh  /> 
                         </span>
+                        </div>
+                        <div className='SearchBar relative inline-flex justify-start ml-8 mt-[-1rem] w-[70%] h-[3rem] outline outline-red-500 z-50
+                         '>
+                            <div className='inputSearch relative flex justify-start mt-2 border-2 border-gray-500 w-full h-8 rounded-3xl '>
+                              
+                            </div>
+
+                         </div>
                     </div>
+                    
                 </div>
 </div>
         </>
