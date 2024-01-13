@@ -16,7 +16,7 @@ const FakeAddressBar = () => {
     <div className=' relative flex z-10  h-[44px] pt-[5px] ml-[-4px] bg-[#000]
                     outline outline-black z-50'>
                         
-        <div className='DotsContainer relative inline-block mt-[-5px] pl-4 pr-2  outline outline-black
+        <div className='DotsContainer relative inline-block mt-[-4px] pl-4 pr-2  outline outline-black
                  rounded-br-3xl bg-black w-[5.9rem] p-[2px]'>
         <span className='RoundDots relative  inline-block   w-[15px] h-[15px]
                 rounded-full  border-transparent  bg-red-800 mt-[12px] mx-1 z-10'
@@ -75,14 +75,14 @@ const FakeAddressBar = () => {
                     </div> */}
 
 
-                    <div className='FakeTabContainer relative flex-row justify-start outline outline-blue-700 w-screen'>
-                        <span className='ArrowLeft relative inline-block pl-4 '>
+                    <div className='FakeTabContainer relative flex-row justify-start border-b-2  border-slate-900  w-screen shadow-md shadow-black '>
+                        <span className='ArrowLeft relative inline-block pl-4 pt-2 text-slate-400 text-[18px]'>
                             <FaArrowLeft />
                         </span>
-                        <span className='ArrowLeft relative inline-block pl-4 '>
+                        <span className='ArrowLeft relative inline-block pl-4 text-slate-400 text-[18px] '>
                             <FaArrowRight />
                         </span>
-                        <span className='RefreshButton relative inline-block pl-4'>
+                        <span className='RefreshButton relative inline-block pl-4 text-slate-400 text-[20px]'>
                             <MdRefresh  /> 
                         </span>
                     </div>
