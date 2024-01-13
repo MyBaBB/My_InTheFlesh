@@ -1,5 +1,8 @@
-This is the In the flesh demo for the Movies It represents a person typing on a mac pc and I will automate it per the following script.   
-
+This is the In the flesh demo for the Movies It represents a person typing on a mac pc and I will automate it per the following script.  
+ 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ designed for 468px and above medium screens and above
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Hey Brett, thanks for the reply.
 I'm attaching the script pages that describe the webpage. I think it's pretty straightforward -- we were thinking it would look like the Terminal program on Mac. There is slight animation with the "welcome back" that fades away, but otherwise it should all be one page.

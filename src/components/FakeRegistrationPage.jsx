@@ -6,8 +6,11 @@ import { FaArrowRight } from "react-icons/fa";
 import { MdRefresh } from "react-icons/md";
 import NewEye from './NewEye.png'
 import { BsIncognito } from "react-icons/bs";
+import { MdLock } from "react-icons/md";
+import { HiDotsVertical } from "react-icons/hi";
+import { PiCarrotDuotone } from "react-icons/pi";
 
-const FakeAddressBar = () => {
+const FakeRegistrationPage = () => {
     return (
         <>
 <div>
@@ -48,18 +51,20 @@ const FakeAddressBar = () => {
             </span>
             <span className='EyeballSpan4'></span>
  </div>
-      <div className='vpnContainer absolute right-[8rem] top-[10px] '>
-           <p className='relative flex inline-block font-semibold text-red-600 '> VPN </p>
+      <div className='vpnContainer absolute right-[7rem] top-[10px] '>
+           <p className='relative flex hidden sm:inline-block font-semibold text-red-600 '> VPN </p>
            
       </div>
-      <div className='vpnContainer absolute right-[3.5rem] top-[10px]  '>
+      
+      <div className='vpnContainer absolute right-[2.9rem] top-[10px]  '>
           
-           <p className='relative flex inline-block text-green-600'> Enabled </p>
+           <p className='relative flex hidden xs:inline-block text-green-600'> Enabled </p>
       </div>
-      <div className='vpnContainer absolute text-[27px] right-[1rem] text-slate-500 top-[10px]'>
-          
-           <p className='relative flex inline-block'> <BsIncognito /></p>
+      <div className='vpnContainer absolute right-[1rem] top-[10px] text-[22px] '>
+           <p className='relative flex hidden xs:inline-block font-semibold text-red-600 z-50 '> <PiCarrotDuotone /> </p>
+           
       </div>
+     
        
      
 </div>
@@ -76,24 +81,40 @@ const FakeAddressBar = () => {
                     </div> */}
 
                     <div className='FakeTabContainer relative flex-row justify-start border-b-2  border-slate-900  w-screen shadow-md shadow-black w-fit '>
-                        <div className='ArrowsWrapper relative inline-block border p-1 border-blue-300'>
-                        <span className='ArrowLeft relative inline-block pl-4 py-2 text-slate-400 text-[18px]'>
+                        <div className='ArrowsWrapper relative inline-block  top-[.2rem] '>
+                        <span className='ArrowLeft relative hidden xs:inline-block pl-4 pt-2 text-slate-400 text-[18px]'>
                             <FaArrowLeft />
                         </span>
-                        <span className='ArrowLeft relative inline-block pl-4 py-2 text-slate-400 text-[18px] '>
+                        <span className='ArrowLeft relative hidden xs:inline-block pl-4 pt-2 text-slate-400 text-[18px] '>
                             <FaArrowRight />
                         </span>
-                        <span className='RefreshButton relative inline-block pl-4 py-2 text-slate-400 text-[20px]'>
+                        <span className='RefreshButton relative hidden sm:inline-block pl-4 pt-2 text-slate-400  text-[22px]'>
                             <MdRefresh  /> 
                         </span>
                         </div>
-                        <div className='SearchBar relative inline-flex justify-start ml-8 mt-[-1rem] w-[70%] h-[3rem] outline outline-red-500 z-50
+                        <div className='SearchBar relative inline-flex justify-start ml-8 mt-[0rem]
+                          w-[82%]  xs:w-[55%] sm:w-[50%] md:w-[60%] xxl:w-[80%] h-[3rem]   z-50
+
                          '>
-                            <div className='inputSearch relative flex justify-start mt-2 border-2 border-gray-500 w-full h-8 rounded-3xl '>
-                              
+                            <div className='inputSearch relative flex justify-start mt-[.75rem] border-2 border-gray-500 w-full h-8 rounded-3xl bg-black '>
+                            <span className='PrivateBox relative inline-flex pt-1 pl-4 '><MdLock /></span>
+                            <p className='relative flex inline-block text-gray-10 top-[.1rem]'
+                            >&nbsp;&nbsp;https://intheflesh <span className='text-gray-500'>/register</span> </p>
                             </div>
 
                          </div>
+                        <div className='SearchBar relative  justify-start ml-8 mt-[-1rem]  h-[3rem] 
+                              hidden  md:inline-flex w-[10%] lg:w-[18%]  '> 
+                            
+
+                         </div>
+                         <div className='vpnContainer absolute hidden xs:inline-block text-[27px]  right-[2.5rem]  text-slate-500 top-[8px]'>
+                          <p className='relative flex hidden xs:inline-block  '><BsIncognito /> </p>
+                         </div>
+                         <div className='vpnContainer absolute text-[27px] right-[1rem] xxs:-right-0 text-slate-500 top-[12px]'>
+                          <p className='relative flex inline-block'><HiDotsVertical  /> </p>
+                         </div>
+
                     </div>
                     
                 </div>
@@ -102,7 +123,7 @@ const FakeAddressBar = () => {
     )
 }
 
-export default FakeAddressBar
+export default FakeRegistrationPage
    
 
 

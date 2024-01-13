@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import FakeAddressBar from './FakeAddressBar'
+import FakeRegistrationPage from './FakeRegistrationPage'
  
 
 
@@ -9,7 +9,7 @@ const HomePage = () => {
         <div className='HomePageWrapper relative  justify-center 
           
           w-full h-full'>
-             <FakeAddressBar />
+             <FakeRegistrationPage />
         </div>
    
     )
