@@ -127,8 +127,8 @@ const FakeRegistrationPage = () => {
  </div>
 
 
-  <div className='FakeRegistrationBody w-full h-screen border border-green-500
-  bg-black'>
+  <div className='FakeRegistrationBody w-full h-screen relative justify-center items-center flex
+   bg-black'>
 
 
 
