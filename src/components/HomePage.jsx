@@ -7,7 +7,7 @@ import FakeAddressBar from './FakeAddressBar'
 const HomePage = () => {
     return (
         <div className='HomePageWrapper relative  justify-center 
-          border-2  border-purple-600
+          outline   outline-purple-600
           w-full h-full'>
              <FakeAddressBar />
         </div>
