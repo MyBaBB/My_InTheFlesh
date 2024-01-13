@@ -5,6 +5,8 @@ import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { MdRefresh } from "react-icons/md";
 import NewEye from './NewEye.png'
+import { BsIncognito } from "react-icons/bs";
+
 const FakeAddressBar = () => {
     return (
         <>
@@ -46,8 +48,20 @@ const FakeAddressBar = () => {
             </span>
             <span className='EyeballSpan4'></span>
  </div>
-  
-
+      <div className='vpnContainer absolute right-[8rem] top-[10px] '>
+           <p className='relative flex inline-block font-semibold text-red-600 '> VPN </p>
+           
+      </div>
+      <div className='vpnContainer absolute right-[3.5rem] top-[10px]  '>
+          
+           <p className='relative flex inline-block text-green-600'> Enabled </p>
+      </div>
+      <div className='vpnContainer absolute text-[27px] right-[1rem] text-slate-500 top-[10px]'>
+          
+           <p className='relative flex inline-block'> <BsIncognito /></p>
+      </div>
+       
+     
 </div>
 
 
@@ -55,11 +69,11 @@ const FakeAddressBar = () => {
 
                 <div className='relative flex justify-center '>
 
-                   {/*  
-                    <div className='DarkModeFakeTab absolute -top-0 w-screen'>
+                    
+                    {/* <div className='DarkModeFakeTab absolute -top-0 w-screen'>
                         <img src={DarkMode1} alt="DarkMode1" ></img>
-                    </div>
- */}
+                    </div> */}
+
 
                     <div className='FakeTabContainer relative flex-row justify-start outline outline-blue-700 w-screen'>
                         <span className='ArrowLeft relative inline-block pl-4 '>
