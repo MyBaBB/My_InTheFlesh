@@ -69,7 +69,13 @@
   border-bottom-left-radius: 32px;
 
 }
-
+ .FakeHeaderh1 {
+   font-family:playfair_display_sc;
+   text-decoration: underline;
+   text-shadow: 2px 2px 2px black;
+   text-decoration-color: darkgreen;
+  
+ }
 
  
 
@@ -110,6 +116,14 @@
 @font-face {
  font-family:'Caprasimo';
   src: url(../GoogleFonts/Caprasimo/Caprasimo-Regular.ttf)
+ }
+@font-face {
+ font-family:'Playfair_Display_SC';
+  src: url(../GoogleFonts/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf)
+ }
+@font-face {
+ font-family:'Cinzel';
+  src: url(../GoogleFonts/Cinzel/Cinzel-VariableFont_wght.ttf)
  }
 
 

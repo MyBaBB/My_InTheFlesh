@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import DarkMode1 from './Darkmode1.png'
+
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { MdRefresh } from "react-icons/md";
@@ -98,7 +98,7 @@ const FakeRegistrationPage = () => {
                          '>
                             <div className='inputSearch relative flex justify-start mt-[.75rem] border-2 border-gray-500 w-full h-8 rounded-3xl bg-black '>
                             <span className='PrivateBox relative inline-flex pt-1 pl-4 '><MdLock /></span>
-                            <p className='relative flex inline-block text-gray-10 top-[.1rem]'
+                            <p className='relative flex inline-block text-gray-300 top-[.1rem]'
                             >&nbsp;&nbsp;https://intheflesh <span className='text-gray-500'>/register</span> </p>
                             </div>
 
@@ -111,13 +111,58 @@ const FakeRegistrationPage = () => {
                          <div className='vpnContainer absolute hidden xs:inline-block text-[27px]  right-[2.5rem]  text-slate-500 top-[8px]'>
                           <p className='relative flex hidden xs:inline-block  '><BsIncognito /> </p>
                          </div>
-                         <div className='vpnContainer absolute text-[27px] right-[1rem] xxs:-right-0 text-slate-500 top-[12px]'>
+                         <div className='vpnContainer absolute text-[27px] right-[1.4rem] xxs:-right-0 text-slate-500 top-[12px]'>
                           <p className='relative flex inline-block'><HiDotsVertical  /> </p>
                          </div>
 
                     </div>
-                    
                 </div>
+
+{/* above is fake header */}
+             
+ <div className='FakeHeader w-full h-[40px] relative justify-center items-center flex 
+   p-12 bg-gray-800
+    text-center text-[2.5rem]'>
+   <h1 className='FakeHeaderh1 inline-block  pb-4 '>Registration</h1>
+ </div>
+
+
+  <div className='FakeRegistrationBody w-full h-screen border border-green-500
+  bg-black'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
         </>
     )
