@@ -60,8 +60,8 @@ const FakeRegistrationPage = () => {
           
            <p className='relative flex hidden xs:inline-block text-green-600'> Enabled </p>
       </div>
-      <div className='vpnContainer absolute right-[1rem] top-[10px] text-[22px] '>
-           <p className='relative flex hidden xs:inline-block font-semibold text-red-600 z-50 '> <PiCarrotDuotone /> </p>
+      <div className='vpnContainer absolute right-[0rem] xs:right-[1rem] top-[10px] text-[22px] '>
+           <p className='relative flex hidden xxs:inline-block font-semibold text-red-600 z-[50] '> <PiCarrotDuotone /> </p>
            
       </div>
      
