@@ -48,19 +48,19 @@ const FakeDetailBoxes = () => {
            ] 
            text-[8px] xxs:text-[9px] xs:text-[12px] sm:text-[14px] md:text-[18px] lg:text-[20px]
          '> 
-        <div className='BodyPartsLeft'>
+        <div className='BodyPartsLeft border-r-2 border-blue-800 px-1 pt-2 mt-1'>
           <p className='BodyParts '>Age:&nbsp;29 </p>
           <p className='BodyParts '>Height:&nbsp;6&apos;</p>
         </div>
-      <div className='BodyPartsLeft'>
+      <div className='BodyPartsLeft border-r-2 border-blue-800 px-1 pt-2 mt-1'>
           <p className='BodyParts'>Weight:&nbsp;255-lbs</p>
           <p className='BodyParts'>Bust:&nbsp;57&quot;</p>
           </div>
-      <div className='BodyPartsRight'> 
+      <div className='BodyPartsRight border-r-2 border-blue-800 px-1 pt-2 mt-1'> 
           <p className='BodyParts'>Waist:&nbsp;34&quot;</p>
           <p className='BodyParts'>Hips:&nbsp;N/A</p>
       </div>      
-      <div className='BodyPartsRight'> 
+      <div className='BodyPartsRight  px-1 pt-2 mt-1'> 
           <p className='BodyParts'>Neck:&nbsp;20&quot;</p>
           <p className='BodyParts'>Shoe:&nbsp;19</p>
              

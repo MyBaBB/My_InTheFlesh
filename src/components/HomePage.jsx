@@ -3,6 +3,7 @@ import React from 'react'
 import FakeRegistrationPage from './FakeRegistrationPage'
 import FakeDetailBoxes from './FakeDetailBoxes'
 import FakeRegistrationHeader from './FakeRegistrationHeader'
+import Copyright from './Copyright'
 
 const HomePage = () => {
     return (
@@ -14,9 +15,11 @@ const HomePage = () => {
              <div className='fixed top-[5.8rem] w-screen z-50'>
                 <FakeRegistrationHeader />
              </div>
+             <Copyright />
              <div className='mt-[7rem] z-0'>
               <FakeDetailBoxes />  
              </div>
+             <Copyright />
         </div>
    
     )
