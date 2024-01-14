@@ -15,22 +15,22 @@ const FakeRegistrationPage = () => {
         <>
 <div>
 
-
-    <div className=' relative flex z-10  h-[44px] pt-[5px] ml-[-4px] bg-[#000]
+  
+    <div className=' relative flex  h-[44px] pt-[5px] ml-[-4px] bg-[#000]
                     outline outline-black z-50'>
                         
         <div className='DotsContainer relative inline-block mt-[-4px] pl-4 pr-2  outline outline-black
                  rounded-br-3xl bg-black w-[5.9rem] p-[2px]'>
         <span className='RoundDots relative  inline-block   w-[15px] h-[15px]
-                rounded-full  border-transparent  bg-red-800 mt-[12px] mx-1 z-10'
+                rounded-full  border-transparent  bg-red-800 mt-[12px] mx-1 z-50'
                  style={{ boxShadow: 'inset 0px 0px  7px  rgb(234 173 12)' }}>
         </span>    
         <span className='RoundDots relative inline-block   w-[15px] h-[15px]
-                rounded-full  border-transparent bg-yellow-700 mt-[12px] mx-1 z-10'
+                rounded-full  border-transparent bg-yellow-700 mt-[12px] mx-1 z-50'
                 style={{ boxShadow: 'inset 0px 0px   7px rgb(253 224 171)   ' }}>
         </span>    
         <span className='RoundDots relative inline-block  w-[15px] h-[15px]
-                rounded-full  border-transparent bg-green-700 mt-[12px] mx-1 z-10'
+                rounded-full  border-transparent bg-green-700 mt-[12px] mx-1 z-50'
                 style={{ boxShadow: 'inset 0px 0px   7px rgb(22 230 74)' }}>
         </span>    
       </div>
@@ -61,7 +61,7 @@ const FakeRegistrationPage = () => {
            <p className='relative flex hidden xs:inline-block text-green-600'> Enabled </p>
       </div>
       <div className='vpnContainer absolute right-[0rem] xs:right-[1rem] top-[10px] text-[22px] '>
-           <p className='relative flex hidden xxs:inline-block font-semibold text-red-600 z-[50] '> <PiCarrotDuotone /> </p>
+           <p className='relative flex hidden xxs:inline-block font-semibold text-red-600 z-50 '> <PiCarrotDuotone /> </p>
            
       </div>
      
@@ -72,7 +72,7 @@ const FakeRegistrationPage = () => {
 
 
 
-                <div className='relative flex justify-center '>
+                <div className='relative flex justify-center z-50'>
 
                  
    
@@ -80,7 +80,7 @@ const FakeRegistrationPage = () => {
                         <img src={DarkMode1} alt="DarkMode1" ></img>
                     </div> */}
 
-                    <div className='FakeTabContainer relative flex-row justify-start border-b-2  border-slate-900  w-screen shadow-md shadow-black w-fit '>
+                    <div className='FakeTabContainer relative flex-row justify-start border-b-2  border-slate-900  w-screen shadow-md shadow-black w-fit bg-[#35373b]'>
                         <div className='ArrowsWrapper relative inline-block  top-[.2rem] '>
                         <span className='ArrowLeft relative hidden xs:inline-block pl-4 pt-2 text-slate-400 text-[18px]'>
                             <FaArrowLeft />
@@ -108,10 +108,12 @@ const FakeRegistrationPage = () => {
                             
 
                          </div>
-                         <div className='vpnContainer absolute hidden xs:inline-block text-[27px]  right-[2.5rem]  text-slate-500 top-[8px]'>
+                         <div className='vpnContainer absolute hidden xs:inline-block text-[27px]
+                           right-[2.9rem]  text-slate-500 top-[8px]'>
                           <p className='relative flex hidden xs:inline-block  '><BsIncognito /> </p>
                          </div>
-                         <div className='vpnContainer absolute text-[27px] right-[1.4rem] xxs:-right-0 text-slate-500 top-[12px]'>
+                         <div className='vpnContainer absolute text-[27px] right-[1.4rem] 
+                         xxs:right-4 text-slate-500 top-[12px]'>
                           <p className='relative flex inline-block'><HiDotsVertical  /> </p>
                          </div>
 
@@ -119,50 +121,8 @@ const FakeRegistrationPage = () => {
                 </div>
 
 {/* above is fake header */}
-             
- <div className='FakeHeader w-full h-[40px] relative justify-center items-center flex 
-   p-12 bg-gray-800
-    text-center text-[2.5rem]'>
-   <h1 className='FakeHeaderh1 inline-block  pb-4 '>Registration</h1>
- </div>
 
-
-  <div className='FakeRegistrationBody w-full h-screen relative justify-center items-center flex
-   bg-black'>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 </div>
         </>
     )
