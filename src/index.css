@@ -75,8 +75,81 @@
    text-shadow: 2px 2px 2px black;
    text-decoration-color: darkgreen;
    }
+ .Likeness {
+   color:aliceblue;
+   font-family:playfair_display_sc;
+   text-decoration: underline;
+   text-shadow: 2px 2px 2px black;
+   text-decoration-color: darkgreen;
+   text-decoration-thickness: 3px;
+   background-color: #111827;
+   outline: transparent;
+   border-top-right-radius:15px;                                       /* bg-grey-900 */
+   border-top-left-radius:15px; 
+   text-shadow: 2px 2px 2px black ;
+   box-shadow:  2px 2px 2px black ;                                      /* bg-grey-900 */
+   }
+ .UserName {
+   color:rgb(207, 226, 243);
+   font-family:Cinzel;
+   text-decoration: underline;
+   text-shadow: 2px 2px 2px black;
+   text-decoration-color: darkgreen;
+   text-decoration-thickness: 3px;
+   background-color: #111827;
+   outline: transparent;
+   border-top-right-radius:15px;                                       /* bg-grey-900 */
+   border-top-left-radius:15px; 
+   text-shadow: 2px 2px 2px black ;
+   box-shadow:  2px 2px 2px black ; 
+   font-size: larger; 
+   letter-spacing: 1px;                                    /* bg-grey-900 */
+   }
+ .likenessButton {
+   color:rgb(207, 226, 243);
+   font-family:Rye;
+   font-size: 15px;
+   text-shadow: 2px 2px 2px black;
+   box-shadow:  2px 2px 2px black ; 
+   background-color: #111827;
+   outline: transparent;
+   border-top-right-radius:15px;                                       /* bg-grey-900 */
+   border-top-left-radius:15px; 
+   text-shadow: 2px 2px 2px black ;                                      /* bg-grey-900 */
+   }
+ .previouslyScanned {
+   color:rgb(128, 191, 128);
+   font-family:playfair_display_sc;
+   
+   text-shadow: 2px 2px 2px black;
+   text-shadow: 2px 2px 2px black ;                                      /* bg-grey-900 */
+   }
 
- 
+  .BodyParts {
+    color:rgb(75, 162, 239);
+    font-family:Libre_Baskerville;
+    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px black ;
+    font-weight: lighter; 
+    letter-spacing: 1px;                                     /* bg-grey-900 */
+    }
+  .slider {
+   
+    font-family:libre_baskerville;
+    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px black ; 
+    text-decoration: underline; 
+    text-decoration-color:darkgreen;                                   /* bg-grey-900 */
+    }
+    .PersonalitySliders1{
+    background: linear-gradient(to right, #2f855a 20%,  #90caf9 20%);}
+    .PersonalitySliders2{
+    background: linear-gradient(to right, #2f855a 30%,  #90caf9 30%);}
+    .PersonalitySliders3{
+    background: linear-gradient(to right, #2f855a 95%,  #90caf9 95%);}
+    .PersonalitySliders4{
+    background: linear-gradient(to right, #2f855a 75%,  #90caf9 75%);}
+
 
 
 
