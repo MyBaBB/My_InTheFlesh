@@ -67,13 +67,22 @@
   bottom: -.6px;
   border: 2px solid black;
   border-bottom-left-radius: 25px;
-
 }
- .FakeHeaderh1 {
-   font-family:playfair_display_sc;
-   text-decoration: underline;
-   text-shadow: 2px 2px 2px black;
-   text-decoration-color: darkgreen;
+ @media screen and (max-width: 620px)
+   {
+    .EyeballSpan2::before {
+      display: none;
+    }
+    .EyeballSpan2::after {
+      display: none;
+    }
+    .EyeballSpan4::before {
+      display: none;
+    }
+    .EyeballSpan4::after {
+      display: none;
+    }
+  
    }
  .Likeness {
    color:aliceblue;
