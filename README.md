@@ -1,3 +1,9 @@
+THIS IS LIKE AN AUDITION FOR A MOVIE WEBSITE.  
+I THOUGH THAT I HAD THIS JOB.  ITS INCOMPLETE AND WAS JUST A DEMO FOR THE MOVIE.
+THE CUT THIS FROM THE SCRIPT.   BUT HERE IT IS AND IT WAS FUN.
+IT IS ALL FAKE. 
+
+
 This is the In the flesh demo for the Movies It represents a person typing on a mac pc and I will automate it per the following script.  
  
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
