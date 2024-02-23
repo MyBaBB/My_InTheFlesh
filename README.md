@@ -1,14 +1,15 @@
 THIS IS LIKE AN AUDITION FOR A MOVIE WEBSITE. (Unfinished)
 I THOUGH THAT I HAD THIS JOB. ITS INCOMPLETE AND WAS JUST A DEMO FOR THE MOVIE.
-THEY CUT THIS FROM THE SCRIPT. BUT HERE IT IS AND IT WAS FUN. \*_IT IS ALL FAKE. Dark Web Fake Page_
+THEY CUT THIS FROM THE SCRIPT. BUT HERE IT IS AND IT WAS FUN.
+
+# IT IS ALL FAKE. Dark Web Fake Page
 
 not finished but at least I got to turn in something to Hollywood. Now they have my number.
 
 This is the In the flesh demo for the Movies It represents a person typing on a mac pc and I will automate it per the following script.
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Non functional demo for the movie. But I made it responsive.
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+## Non functional demo for the movie. But I made it responsive.
+
 ![image](InTheFleshReadMe.png)
 Hey Brett, thanks for the reply.
 I'm attaching the script pages that describe the webpage. I think it's pretty straightforward -- we were thinking it would look like the Terminal program on Mac. There is slight animation with the "welcome back" that fades away, but otherwise it should all be one page.
