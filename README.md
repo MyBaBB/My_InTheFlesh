@@ -1,23 +1,22 @@
 THIS IS LIKE AN AUDITION FOR A MOVIE WEBSITE. (Unfinished)
-I THOUGH THAT I HAD THIS JOB.  ITS INCOMPLETE AND WAS JUST A DEMO FOR THE MOVIE.
-THEY CUT THIS FROM THE SCRIPT.   BUT HERE IT IS AND IT WAS FUN.
-IT IS ALL FAKE. 
+I THOUGH THAT I HAD THIS JOB. ITS INCOMPLETE AND WAS JUST A DEMO FOR THE MOVIE.
+THEY CUT THIS FROM THE SCRIPT. BUT HERE IT IS AND IT WAS FUN.
+_IT IS ALL FAKE. Dark Web Fake Page_
 
 not finished but at least I got to turn in something to Hollywood. Now they have my number.
 
-This is the In the flesh demo for the Movies It represents a person typing on a mac pc and I will automate it per the following script.  
- 
+This is the In the flesh demo for the Movies It represents a person typing on a mac pc and I will automate it per the following script.
+
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Non functional demo for the movie. But I made it responsive.
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
+![image](InTheFleshReadMe.png)
 Hey Brett, thanks for the reply.
 I'm attaching the script pages that describe the webpage. I think it's pretty straightforward -- we were thinking it would look like the Terminal program on Mac. There is slight animation with the "welcome back" that fades away, but otherwise it should all be one page.
 If you're still interested after reading, let me know and we can discuss timeline and what you might charge for something this? Thanks!
 
 " I will have to watch some Dark web videos on youtube to see what the terminal looks like on mac.
-I will never access the dark web.  I am just making a demo for the movie."  1-12-2024 BB.
-
+I will never access the dark web. I am just making a demo for the movie." 1-12-2024 BB.
 
 He types “InTheFlesh.com” into the search browser and hits
 “ENTER.”
@@ -86,8 +85,6 @@ that says “CLOSE YOUR EYES UNTIL YOU HEAR A VOICE.”
 Jay closes his eyes and takes a deep breath. The clock
 continues to tick towards zero.
 3... 2... 1...
-
-
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
