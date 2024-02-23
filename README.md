@@ -1,7 +1,6 @@
 THIS IS LIKE AN AUDITION FOR A MOVIE WEBSITE. (Unfinished)
 I THOUGH THAT I HAD THIS JOB. ITS INCOMPLETE AND WAS JUST A DEMO FOR THE MOVIE.
-THEY CUT THIS FROM THE SCRIPT. BUT HERE IT IS AND IT WAS FUN.
-_IT IS ALL FAKE. Dark Web Fake Page_
+THEY CUT THIS FROM THE SCRIPT. BUT HERE IT IS AND IT WAS FUN. \*_IT IS ALL FAKE. Dark Web Fake Page_
 
 not finished but at least I got to turn in something to Hollywood. Now they have my number.
 
